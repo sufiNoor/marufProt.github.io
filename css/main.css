@@ -2181,6 +2181,7 @@ h1, h2, h3, h4, h5, h6 {
 .banner-area .overlay-bg {
   border-radius: 10px;
   background-color: rgba(4, 9, 30, 0.5);
+  background: url(../img/header-bg.jpg) center;
 }
 
 .banner-content {
