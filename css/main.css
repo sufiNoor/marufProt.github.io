@@ -2658,7 +2658,7 @@ h6 {
 
 
 	}
-	.gal img{ width: 110%; padding: 3px 0;}
+	.gal img{ width: 100%; padding: 3px 0;}
   @media (max-width: 767.98px) {
     .gal {
 
