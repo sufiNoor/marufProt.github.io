@@ -16,7 +16,8 @@
   <meta charset="UTF-8 ">
   <!-- Site Title -->
   <title>Portfolio</title>
-
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
   <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
@@ -35,13 +36,12 @@
 
 <body>
   <div class="protfolio-wrap">
-
     <!-- Start Header Area -->
     <header class="default-header">
       <nav class="navbar navbar-expand-lg  navbar-light">
         <div class="container">
           <a class="navbar-brand" href="index.html">
-						  	<img src="img/logo.png" alt="">
+						  	<img id="logoimg" src="img/logo.png" alt="logo">
 						  </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						    <span class="text-white lnr lnr-menu"></span>
@@ -75,10 +75,8 @@
       <div class="container">
         <div class="row fullscreen d-flex align-items-center justify-content-center">
           <div class="banner-content col-lg-10">
-            <h1>
-									Adventure Awaits!
-								</h1>
-            <a href="#portfolio" class="primary-btn text-uppercase">Explore Now</a>
+            <h1>Maruf Hossain</h1>
+            <a href="#portfolio" class="primary-btn text-uppercase">Advangture Awaits</a>
           </div>
         </div>
       </div>
@@ -92,27 +90,58 @@
           <div class="menu-content col-lg-10">
             <div class="title text-center">
               <h1 class="mb-10">Explore the world through my lens</h1>
+              <br>
+              <br>
+              <br>
             </div>
           </div>
         </div>
+        <div class="row">
+          <div class="col-md-6" "img-rounded">
+            <a href="Advanture.html">
+              <img class="img-fluid" src="img/adventures.jpg" alt="adventuresimage">
+            </a>
+          </div>
+          <br class>
+          <br>
+          <div class="col-md-6" "img-rounded" href="clients.html">
+            <a href="clients.html">
+              <img class="img-fluid" src="img/clients.jpg" alt="clientimage">
+            </a>
+          </div>
 
-        <div class="filters">
-          <ul>
-            <li data-filter=".corporate">Brand Collaboration</li>
-            <li data-filter=".personal">Adventures</li>
-            <li data-filter=".agency">Portraits</li>
-
-          </ul>
-          <ul>
-            <li data-filter=".corporate"></li>
-            <img data-filter=".corporate" src="img/nomadik.png" width="80" height="80" alt="nomadik">
-            <li data-filter=".personal"></li>
-            <img data-filter=: ".personal" src="img/CarvedLogo.png" alt="curvedLogo" width="130" height="130">
-            <!-- <li data-filter=".agency">Keyway Designs</li> -->
-          </ul>
         </div>
 
-        <div class="filters-content">
+        <!-- <ul>
+            <li data-filter=".corporate">Brand Collaboration</li>
+            <li data-filter=".personal">Adventures</li>
+            <li data-filter=".agenfcy">Portraits</li>
+
+          </ul> -->
+        <!-- <div class="col-md-12" "col-lg-12" >
+        <div class="col-md-6" "col-lg-6">
+            <a data-filter=".corporate" href="#">
+              <img class="img-fluid image" src="img/clients.jpg"/>
+            </a>
+          </div>
+        </div>
+        <br>
+        <div class="col-md-6" "col-lg-6">
+          <a data-filter=".corporate" href="#">
+              <img class="img-fluid image" src="img/adventures.jpg"/>
+            </a>
+        </div>
+      </div> -->
+
+        <!-- <ul>
+            <li data-filter=".corporate"></li>
+            <img href="generic.html" data-filter=".corporate" src="img/clients.jpg" width="320px" height="214px" alt="Clients">
+            <li data-filter=".personal"></li>
+            <img href="generic.html" data-filter=: ".personal" src="img/adventures.jpg" alt="Adventure" width="320px" height="214px">
+          </ul> -->
+
+
+        <!-- <div class="filters-content">
           <div class="row grid">
             <div class="single-portfolio col-sm-4 all corporate">
               <div class="item">
@@ -227,7 +256,7 @@
           </div>
         </div>
 
-      </div>
+      </div> -->
     </section>
     <!-- End portfolio-area Area -->
 
@@ -239,7 +268,7 @@
         <div class="row d-flex justify-content-center">
           <div class="menu-content pb-60 col-lg-10">
             <div class="title text-center">
-              <h1 class="mb-10 text-white">About me</h1>
+              <h1 class="mb-10 text-white"> Maruf Hossain</h1>
             </div>
           </div>
         </div>
@@ -256,7 +285,9 @@
               <img class="img-fluid" src="img/s1.png" alt="">
               <h4>Background</h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation.
+                Maruf Hossain is a self taught photographer and videographer. His passion for the outdoors combined with his vision for perfection makes his work come to life. He creates content in order to inspire people to go out and explore the unseen opportunities
+                of this world. From a young age, he learned to appreciate the sophistication in the simple beauty of the mountains, the open roads, and endless oceans. Working with various companies, he tells their stories and illustrates them through
+                his photos and videos. He believes that “if you put your passion first, everything else will follow”.
               </p>
             </div>
           </div>
@@ -422,6 +453,7 @@
     </footer>
     <!-- End footer Area -->
     </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="js/vendor/jquery-2.2.4.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="js/vendor/bootstrap.min.js"></script>
